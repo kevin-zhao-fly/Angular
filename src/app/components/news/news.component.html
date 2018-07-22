@@ -11,3 +11,30 @@
 <div title="{{msg}}">鼠标放上去看一下</div>
 <br>
 <span [innerHTML]="msg"> </span>
+
+<br>
+{{obj.name}}
+<br>
+<ul>
+  <li *ngFor="let item of list; let key=index">
+      {{item}}--{{key}}
+  </li>
+  
+</ul>
+<br>
+<ul>
+  <li *ngFor="let item of list2">
+    {{item.title}}
+  </li>
+</ul>
+<br>
+<ul>
+  <li *ngFor="let item of list3">
+    {{item.carname}}
+    <ol>
+      <li *ngFor="let car of item.list">
+        {{car.title}}
+      </li>
+    </ol>
+  </li>
+</ul>
