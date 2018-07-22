@@ -11,10 +11,12 @@ export class NewsComponent implements OnInit {
 
   msg:any;
 
+  public id='123';
+
   constructor() { }
 
   ngOnInit() {
-    this.msg='这是一个msg消息';
+    this.msg='<h2>这是一个msg消息<h2>';
   }
 
 }
