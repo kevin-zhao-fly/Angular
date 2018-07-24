@@ -14,7 +14,7 @@ export class NewsComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.msg='这是一个msg消息';
+    this.msg='这是一个msg消息11';
   }
 
 }
