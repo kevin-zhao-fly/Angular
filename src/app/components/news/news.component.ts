@@ -53,7 +53,11 @@ export class NewsComponent implements OnInit {
   }
 
   ngOnInit() {
+<<<<<<< HEAD
     this.msg='<h2>这是一个msg消息<h2>';
+=======
+    this.msg='这是一个msg消息11';
+>>>>>>> 0fa8b981b88f53e10ddbd80a7f0e6972c8ceace7
   }
 
 }
