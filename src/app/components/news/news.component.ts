@@ -53,7 +53,7 @@ export class NewsComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.msg='<h2>这是一个msg消息12<h2>';
+    this.msg='<h2>这是一个msg消息112<h2>';
   }
 
 }
