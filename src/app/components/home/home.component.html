@@ -1,0 +1,26 @@
+<p>
+  home works!
+</p>
+<br>
+{{msg}}
+
+<br>
+<button (click)='getmsg()'>获取属性值</button> 
+<br>
+<hr>
+{{username}}
+<br>
+<hr>
+<button (click)='setName()'>改名</button>
+<br>
+<div *ngIf="flag">true时显示</div>
+<br>
+<button (click)='flag=!flag'>change flag</button>
+
+<br>
+<input type="text" (keyup)="keyupFn($event)">
+<br>
+<input type="text" [(ngModel)]="search">
+{{search}}
+<br>
+<button (click)="getInput()">获取输入框的值</button>
